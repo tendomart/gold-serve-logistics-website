@@ -4098,8 +4098,19 @@ img.pull-right {
 }
 
 .typed-strings p {
-	position: absolute;
+	position: relative;
 }
+
+@media screen and (max-width: 358px) {
+	.typed-strings {
+	  font-size: 30px;
+	  font-size: 30px !important;
+	font-weight: 600;
+	color: #fff;
+	}
+  }
+  
+  
 
 .type-wrap.title.big {
 	font-size: 60px !important;
